@@ -27,7 +27,9 @@ function App() {
   }
   function result() {
     try {
-      setRes(eval(res).toString());
+      if (res !== "Error") {
+        setRes(eval(res).toString());
+      }
     } catch (error) {
       setRes("Error");
     }
