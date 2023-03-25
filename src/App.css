@@ -31,6 +31,7 @@ input{
     font-size: 25px;
     cursor: none;
     font-weight: bolder;
+    caret-color: transparent;
 }
 .keypad{
 
